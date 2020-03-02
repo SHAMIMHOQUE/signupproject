@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	position: 0; 
+}
+
+img{
+	max-width: 100%
+}
+header{
+	    background: #404344;
+        box-shadow: 0 0 10px #000;
+}
+nav{
+    padding: 40px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+	background-color: red;
+	color: green;
+}
+nav ul li img{
+    width: 50px;
+}
+body{
+	background-image: url(images/pic.png);
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 20px;
+
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-style: italic;	
+}
+
+label{
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+.reg{
+	width: 53%;
+	margin: auto;
+	background-color: rgb(0,0,0,0.4);
+}
+
+#reg{
+	width: 60%;
+	margin:auto;
+}
+
+#name{
+width: 300px;
+outline: 0;
+padding: 5px;
+border: 3px groove;
+}
+
+#sub{
+text-align: center;
+background-color:red;
+margin-left:70px;
+}
+
+#sub:hover{
+	background-color: green;
+	color: white;
+}
+#ma{
+color: white;
+
+}
